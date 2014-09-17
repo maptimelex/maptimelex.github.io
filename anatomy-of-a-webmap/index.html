@@ -91,15 +91,19 @@ window.onload = function() {
 };
 </script></head><body>
 <div>Anatomy of a <em>Web Map</em></div>
-<div>Presented by Ryan Cooper (et al ?) but almost entirely created by <a href="http://stamen.com/studio/alan">Alan McConchie</a> :) and <a href="http://stamen.com/studio/beth">Beth Schechter</a> :D</div>
-<div>Housekeeping!<br>You can follow along here: <a href="http://goo.gl/RzfeFo" target="_blank">goo.gl/RzfeFo</a>. Links are in blue boxes, <em>green</em> is just emphasis. You can comment and edit on <a href="https://github.com/maptime/anatomy-of-a-web-map/">github!</a></div>
+<div>Presented by Ryan Cooper...</div>
+<div>...but almost entirely created by <a href="http://stamen.com/studio/alan">Alan McConchie</a> and <a href="http://stamen.com/studio/beth">Beth Schechter</a></div>
+<div>Feel free <em>ask questions at any time</em></div>
+<div>I may not know the answer...</div>
+<div>but someone else here might!</div>
+<div>So feel free to <em>contribute your own insights</em> as we move along</div>
+<div>Housekeeping!<br>You can follow along here: <a href="http://goo.gl/RzfeFo" target="_blank">goo.gl/RzfeFo</a>. Links are in blue boxes, <em>green</em> is just emphasis.</div>
 <div>Now let's get started :)</div>
-<div>Today we will be talking about the <em>very most basic principles</em> of web mapping.</div>
-<div>We're including a little history, so you can get an idea of how web maps have come to be.</div>
-<div>There are always exceptions! We'll talk about those too.</div>
-<div>We'll talk a lot about <em>Google</em>, but we're going to show you a <em>100% open source</em> Google-free stack</div>
-<div>But first, what does <em>anatomy</em> have to do with a web map?</div>
-<div>Well,</div>
+<div> <em>The very most basic principles</em> of web mapping</div>
+<div>History of webmaps</div>
+<div>Exceptions to the norm</div>
+<div>We'll talk about <em>Google</em>, but we're going to show you a <em>100% open source</em> Google-free stack</div>
+<div>What does <em>anatomy</em> have to do with a web map?</div>
 <div>Both bodies and web maps have components and systems that <em>interact and intertwine.</em></div>
 <div><img src="images/0-anatomy-dude/anatomy1.png"></div>
 <div><img src="images/0-anatomy-dude/anatomy2.png"></div>
@@ -107,39 +111,37 @@ window.onload = function() {
 <div><img src="images/0-anatomy-dude/anatomy4.png"></div>
 <div>Instead of cells, maps have <em>data.</em></div>
 <div>Instead of circulatory and digestive systems, web maps have <em>styles and tiles and servers.</em><br>oh my!</div>
-<div>So,</div>
 <div>What is a web map?</div>
-<div>To answer that question, maybe it's more helpful to ask,</div>
 <div>How is a <em>web map</em> different than a <em>digital map</em>?</div>
 <div><em>Digital</em>: involves a computer, but might not be accessible by the internet.</div>
-<div>A <em>web map</em> is a kind of <em>digital map</em>. And both are obviously quite different from <em>analog</em> maps, such as paper maps and atlases!</div>
+<div>A <em>web map</em> is a kind of <em>digital map</em>.</div>
+<div>Both are obviously quite different from <em>analog</em> maps, such as paper maps and atlases!</div>
 <div>We're talking about web maps that you view in a browser, like...</div>
 <div class='imageTextLight'><img src="images/osm.png"><a href="http://www.openstreetmap.org/">OpenStreetMap.org</a></div>
 <div class='imageTextLight'><img src="images/google-map.png"><a href="https://www.google.com/maps/preview">maps.google.com</a></div>
 <div class='imageTextLight'><img src="images/mapsdotstamen.png"><a href="http://maps.stamen.com">maps.stamen.com</a></div>
 <div class='imageTextLight'><img src="images/iphone_maps.jpg">Making maps for <em>mobile devices</em> can be similar, but we're not talking about that today.</div> 
 <div class='imageTextLight'><img src="images/google-earth.png">We're also not talking about <em>digital globes</em> like <a href="http://www.google.com/earth/">Google Earth</a></div>
-<div><em>ok ok</em></div>
-<div>but how about a little history:<br><em>How did web maps come to be?</em></div>
+<div>History:<br><em>How did web maps come to be?</em></div>
 <div  class='imageTextLight' style="color: black"><img src="images/3-map-history/1-arcGIS.jpg">First, there were digital maps like <a href="http://www.esri.com/software/arcgis">ArcGIS</a>.</div>
-<div>Although useful, GIS for the Web is not user friendly :( </div>
-<div class='imageTextLight' style="color: black"><img src="images/3-map-history/2-Ridgefield-CT-Mapquest-out.jpg">In 1996, Mapquest launched its web service.</div>
+<div>But GIS for the Web is not user friendly :( </div>
+<div class='imageTextLight' style="color: black"><img src="images/3-map-history/2-Ridgefield-CT-Mapquest-out.jpg">1996:  Mapquest launched its web service.</div>
 <div class='imageTextLight'><img src="images/3-map-history/2-Ridgefield-CT-Mapquest-out.jpg"> <em>ta da!</em></div>
 <div>Directions! Online! Revolutionary!</div>
-<div>The problem: it was slow to load :(</div>
-<div>MapQuest required a full page refresh to scroll or zoom, and was always aligned to tile boundaries.</div>
-<div>Google Maps really paved the way for online mapping, beginning in 2005.</div>
+<div>Big problem: slow to load :(</div>
+<div>MapQuest required a full page refresh to scroll or zoom, and was always aligned to the boundaries of the map image.</div>
+<div>2005: Google Maps changes the game</div>
 <div  class='imageTextLight'><img src="images/3-map-history/3-old-google-maps-1.JPG"></div>
-<div><em>But what was the revolution?</em><br>Was it the interface?<br>The red marker?<br>The weather widget?</div>
+<div><em>What was the revolution?</em><br>Was it the interface?<br>The red marker?<br>The weather widget?</div>
 <div>No!</div>
 <div>It was the <em>tile. <img src="images/tiles/toner.jpg"></em></div>
-<div>Let's talk about tiles for a minute. And to do so, we're borrowing some info from amazing mapper <a href="http://lyzidiamond.com/">Lyzi Diamond</a>, who got a bunch of info about tiles from <a href="https://www.mapbox.com/">Mapbox</a>.</div>
-<!-- <div><em>Thanks y'all! <3 <3 <3</em><br>Now here goes...</div> -->
+<div>Let's talk about tiles for a minute.</div> 
+<div>We're borrowing some info from amazing mapper (and Lexington Code4America Fellow) <a href="http://lyzidiamond.com/">Lyzi Diamond</a>, who got a bunch of info about tiles from <a href="https://www.mapbox.com/">Mapbox</a>.</div>
 <div>All tiles<br>=<br>same size! 256x256 pixels<br>same boundaries<img src="images/tiles.gif"></div>
 <div>Tiles could be a road map, a satellite image, or anything else that's a raster!</div>
 <div class='imageTextLight'><img src="images/tiles-loading.gif">All these little tiles load <em>way faster</em> than one big map.</div>
 <div>Web maps like this load the tiles that are on your screen. If the map is “smart,” it will pre-load tiles outside of the screen, along the top, bottom, left, and right.</div>
-<div class='imageTextLight'><img src="images/slippy-map.gif">This kind of map is colloquially called a <em>slippy map</em></div>
+<div class='imageTextLight'><img src="images/slippy-map.gif">AKA: <em>slippy map</em></div>
 <div>Each <em>zoom level</em> has its own set of tiles!</div>
 <div class='imageTextLight'><img src="images/tiles/zoom0.png"><em>Zoom level 0: one tile for the world.</em></div>
 <div>With each additional zoom level, the number of tiles increases exponentially.</div>
@@ -149,7 +151,7 @@ window.onload = function() {
 <div>Tiles are <em>rendered</em> in advance (usually) then stored in a cache</div>
 <div>Map tiles are just images on the web, so you can link to them individually.</div>
 <div>For example: <a href="http://tile.openstreetmap.org/4/2/6.png">http://tile.openstreetmap.org/4/2/6.png</a></div>
-<div>In order to understand how this works, let's break down the URL.</div>
+<div>Let's break down the URL.</div>
 <div>http://<em>tile.openstreetmap.org</em>/4/2/6.png -- this is the name of the tile server.</div>
 <div>http://tile.openstreetmap.org/<em>4</em>/2/6.png -- this is the z value, or the zoom level.</div>
 <div>http://tile.openstreetmap.org/4/<em>2/6</em>.png -- This is the x/y value, or the place in the grid where the tile lives.</div>
