@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'GlassHouses';
+  src: url('webfonts/GlassHouses.eot?#iefix') format('embedded-opentype'),  url('webfonts/GlassHouses.woff') format('woff'), url('webfonts/GlassHouses.ttf')  format('truetype'), url('webfonts/GlassHouses.svg#GlassHouses') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /*font-family: 'Open Sans', sans-serif;;*/
+  letter-spacing: normal;
+}
+
+div {
+	line-height: 110%;
+}
+
+div.imageTextLight {
+  text-shadow:0px 0px 100px rgba(34,34,34,0.95);
+}
+
+.disco {
+  font-family: 'GlassHouses';
+  color: yellow;
+}
+
+.nope {
+  text-decoration: line-through;
+
+}
+
+li {
+	line-height: 110%;
+}
+
+li.blackOut {
+  color: #111;
+}
+li.highlight {
+  color: #8dbd0c;
+}
+
+a {
+  background: none;
+  color: #34d0e7;
+  text-decoration: underline;
+}
+
+th {
+  background-color: #fff;
+  color: #000;
+}
+
+td {
+    padding: 15px;
+    margin: 0px;
+}
+
+th {
+   border: 1px solid #fff;
+}
+
+tr > :first-child {
+	border-right-style: solid;
+	border-right-color: #fff;
+	border-right-width: 1px;
+}
+tr > :last-child {
+	border-left-style: solid;
+	border-left-color: #fff;
+	border-left-width: 1px;
+}
+
+/*.header {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing:-1px;
+  background:#000;
+  background-size:100%;
+  color:#fff;
+  margin:0;
+  padding:0;
+}*/
+
+.table-page {
+	line-height: 125%;
+}
+
+.list-markerless {
+	list-style-type: none;
+}
+
+/*img.height {
+  height: 100%;
+  width: 100%;
+}*/
