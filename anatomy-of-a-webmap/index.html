@@ -155,6 +155,7 @@ window.onload = function() {
 <div>http://<em>tile.openstreetmap.org</em>/4/2/6.png -- this is the name of the tile server.</div>
 <div>http://tile.openstreetmap.org/<em>4</em>/2/6.png -- this is the z value, or the zoom level.</div>
 <div>http://tile.openstreetmap.org/4/<em>2/6</em>.png -- This is the x/y value, or the place in the grid where the tile lives.</div>
+<div><img src="images/tile-grid-example.png" /></div>
 <div>Google maps use <em>Mercator projection</em>, which is designed for sailors BUT it works well for flat maps.</div>
 <div><a href="http://commons.wikimedia.org/wiki/File:1855_Colton_Map_of_the_World_on_Mercator_Projection_-_Geographicus_-_WorldMercator-colton-1855.jpg"><img src="images/mercator.jpg"></a></div>
 <div>We'll see more map projections later...!</div>
@@ -190,10 +191,12 @@ window.onload = function() {
 <div>3 exceptions to the simplified story!</div>
 <div>Exception #1: Tiles are always rasters <em>EXCEPT</em> when they're not!</div>
 <div class='imageTextLight'><img src="images/vector_tiles.png"><em>vector tiles!</em> What are they? <a href="http://bl.ocks.org/wboykinm/7393674">(unrelated demo)</a></div>
-<div><a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a>: they are an alternative to a database that makes raster tiles. They still render to rasters for display</div>
-<div><em>Raster:</em> ask for data to fit into tile</div>
+<div><em>Raster:</em> ask for data to fit into tile, don't include geometry, attributes, or metadata for features in baselayer</div>
+<div>It's just an image!</div>
+<div><a href="https://www.mapbox.com/blog/vector-tiles/">vector tiles</a>: featuers stored as vectors and can include geometry, attribute and metadata, still conform to 256X256px grid patter, but featuers can overrun grid boundaries</div>
 <div><em>Vector:</em> already have vector data sliced up in the way that I will make raster tiles</div>
-<div>So someone has to go through and chop up that data, like <a href="https://www.mapbox.com/blog/vector-tiles/">MapBox</a></div>
+<div>It's new and a bit complicated, but<a href="https://www.mapbox.com/blog/vector-tiles/">MapBox</a> has integrated them into their webmap services</div>
+<div>(this is kind of a big deal, but is also new...so we'll wait and see on the impact)
 <div>Exception #2: Can’t interact with features on a raster. BUT <a href="https://www.mapbox.com/developers/utfgrid/">UTFGrid</a> (Mapbox invention) makes it possible.</div>
 <div class='imageTextLight' style="color: black"><img src="images/utfgrid.png">UTFGrid is an invisble tile layer made up of arbitrary letters which are indexes into the clickable data</div>
 <div class='imageTextLight' style="color: black"><img src="images/parks-conservancy.png">Stamen used this technique on the <a href="http://www.parksconservancy.org/map/#/?coords=15:37.8016:-122.4659&date=1394668684907">Parks Conservancy map.</a></div>
