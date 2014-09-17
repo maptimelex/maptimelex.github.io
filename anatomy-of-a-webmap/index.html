@@ -158,10 +158,10 @@ window.onload = function() {
 <div>Google maps use <em>Mercator projection</em>, which is designed for sailors BUT it works well for flat maps.</div>
 <div><a href="http://commons.wikimedia.org/wiki/File:1855_Colton_Map_of_the_World_on_Mercator_Projection_-_Geographicus_-_WorldMercator-colton-1855.jpg"><img src="images/mercator.jpg"></a></div>
 <div>We'll see more map projections later...!</div>
-<div>Anyway, so all other slippy maps and slippy map software followed Google's lead, with tiles at the base.</div>
-<div>Not surprisingly, a collection of <em>raster</em> tiles makes up what we call the map's <em>base layer.</em></div>
+<div>All the other slippy maps and slippy map software followed Google's lead, with tiles at the base.</div>
+<div>A collection of <em>raster</em> tiles makes up the map's <em>base layer.</em></div>
 <div>When we layer things like markers on top of them, we call those <em>data layers</em> or <em>content layers</em> or <em>feature layers</em>.</div>
-  <div>*(Not every web map contains a feature layer, but they are fairly typical.)</div>
+<div>*(Not every web map contains a feature layer, but they are fairly typical.)</div>
 <div>They are often <em>vector</em> layers (point, line, polygon). Sometimes you can interact with them (clicking to produce a popup, for example).</div>
 <div>Filetypes: GIS uses <em>shapefiles</em>, but web maps prefer <em>KML</em>, or more recently, <a href="http://github.com/lyzidiamond/learn-geojson">GeoJSON</a></div>
 <div>Here's the breakdown of how these pieces fit together:</div>
@@ -180,6 +180,13 @@ window.onload = function() {
 <div>What does the javascript library do? Grabs the tiles, adds content layer, handles interaction.</div>
 <div>The javascript: we recommend <a href="http://leafletjs.com">Leaflet</a>, although there are others: <a href="http://openlayers.org">OpenLayers</a> (which is making a comeback) / <a href="http://modestmaps.com">Modest Maps</a> / <a href="http://polymaps.org">Polymaps</a></div>
 <div>And don't forget: <a href="https://developers.google.com/maps/documentation/javascript/">Google Maps API</a> / <a href="http://www.microsoft.com/maps/choose-your-bing-maps-API.aspx">Bing Maps API</a> / <a href="http://developer.here.com/web/guest/javascript-apis">Nokia HERE Maps API</a> / <a href="https://developers.arcgis.com/en/javascript/">ESRI ArcGIS API</a></div>
+<div>The simplified story of webmaps, in review:
+  <ul>
+    <li>The world is split into 256 x 256 pixel images at various zoom levels</li>
+    <li>Those images are raster-based (PNG, JPEG) to create a base layer</li>
+    <li>Vector data goes on top of the base layer for interaction</li>
+  </ul>
+</div>
 <div>3 exceptions to the simplified story!</div>
 <div>Exception #1: Tiles are always rasters <em>EXCEPT</em> when they're not!</div>
 <div class='imageTextLight'><img src="images/vector_tiles.png"><em>vector tiles!</em> What are they? <a href="http://bl.ocks.org/wboykinm/7393674">(unrelated demo)</a></div>
@@ -204,7 +211,7 @@ window.onload = function() {
 <div>So.<br>Where do I start?</div>
 <div>Do I need to make my own custom tiles?</div>
 <div>No? Use these! <a href="http://wiki.openstreetmap.org/wiki/Tiles">OpenStreetMap</a>, <a href="http://cloudmade.com/products/map-tiles">CloudMade</a>, <a href="http://maps.stamen.com">Stamen</a>, <a href="https://www.mapbox.com/tour/#maps">MapBox</a>, <a href="http://developer.mapquest.com/web/products/open/map">MapQuest</a></div>
-<div>Yes? Use <a href="https://www.mapbox.com/tilemill/">TileMill</a> to design your own tiles.</div>
+<div>Yes? Use <a href="https://www.mapbox.com/tilemill/">TileMill</a> or <a href="https://www.mapbox.com/mapbox-studio/">Mapbox Studio</a> to design your own tiles.</div>
 <div><img src="images/worldwide-wood.png"> <em>Pretty!</em></div>
 <div>Style your map with <a href="https://www.mapbox.com/carto">CartoCSS</a> (or just carto)</div>
 <div>You can host these files on <a href="https://www.mapbox.com/plans/">MapBox</a>, or...</div>
@@ -212,7 +219,7 @@ window.onload = function() {
 <!-- <div>See Eric Theise's <a href="http://erictheise.com/maptime_platform_slides">Geo Platform tutorial</a> for all the gritty details</div> -->
 <div>Do I need a content layer?</div>
 <div>No? Put all your data into the tiles, possibly using UTFGrid for interactivity</div>
-<div>Yes? Convert a Shapefile to GeoJSON with <a href="http://ogre.adc4gis.com/">OGRE</a> or write your own GeoJSON with <a href="http://geojson.io">geojson.io</a></div>
+<div>Yes? Convert a Shapefile to GeoJSON with <a href="http://ogre.adc4gis.com/">OGRE</a> or <a href="http://www.shpescape.com/">Shape Escape</a> or write your own GeoJSON with <a href="http://geojson.io">geojson.io</a></div>
 <div>Finally, <a href="http://cartodb.com">CartoDB</a> takes care of almost all of this for you!</div>
 <div class='imageTextLight'><img src="images/random/soon.jpg">More:<br><a href="http://maptime.github.io/geolearning.html">maptime.github.io/geolearning.html</a> <p>Soon:<br><a href="http://omgitsmaptime.com">maptime.io</a></div>
 
@@ -222,3 +229,4 @@ window.onload = function() {
 <div>Everyone at <a href="http://maptime.github.io">#maptime</a></div>
 <div>You!</div>
 <div>Presentation made with <a href="http://www.macwright.org/big/">big</a></div>
+<div><a href="https://twitter.com/maptimelex" /><br>maptimelex@gmail.com<br><a href="http://maptime.github.io/lexington/2014/09/17/meetup-agenda/">maptime.github.io/lexington</a><br><a href="https://www.facebook.com/maptimelex">facebook.com/maptimelex</a></div>
