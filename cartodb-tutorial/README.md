@@ -70,6 +70,7 @@ We will cover some basic PostGIS in this tutorial though if you are interested y
 ### Intro to the CartoDB Dashboard
 
 1. Create a free account and log into CartoDB. Once logged in and viewing the dashboard, click on the `common data` option, then click on `populated places`. This will add the `populated places` dataset to your account. Once the data has been imported take a look at the  `adm0cap field` in the __table view__. This field stores 0's and 1's, the latter meaning the place is a country capital.
+(While the point of this step is to demonstrate adding data from CartoDB's centralized repository of useful datasets, in the case of technical difficulties, you can download the data directly from [here](http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/110m/cultural/ne_110m_populated_places.zip), [here](http://maptimelex.github.io/cartodb-tutorial/data/ne_110m_populated_places.zip), [here](https://dl.dropboxusercontent.com/u/11602239/maptimeLEX/data/cartodb-tutorial/ne_110m_populated_places.zip), or [here](https://drive.google.com/file/d/0B5JDMGVYwZdISGhHanR5dzNRcG8/view?usp=sharing).
 
 2. A walk through the GUI:
     - When inspecting data in CartoDB there are two ways to view it: 
