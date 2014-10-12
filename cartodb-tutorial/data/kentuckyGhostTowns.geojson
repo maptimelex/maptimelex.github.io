@@ -1,0 +1,187 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "BARTHELL",
+        "COUNTY": "MCCREARY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.525278,
+          36.686389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "BELLS MINES",
+        "COUNTY": "CRITTENDEN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.0222,
+          37.5097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "BLUE HERON",
+        "COUNTY": "MCCREARY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.545556,
+          36.671389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "BURGESS RAILROAD STATION",
+        "COUNTY": "BOYD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.581389,
+          38.2725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "CREELSBORO",
+        "COUNTY": "RUSSELL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1975,
+          36.885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "GOLDEN POND",
+        "COUNTY": "TRIGG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.024167,
+          36.785556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "HILLTOP",
+        "COUNTY": "MERCER"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.005833,
+          37.74
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "JONKAN",
+        "COUNTY": "PIKE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.392222,
+          37.449444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "NEAL",
+        "COUNTY": "BOYD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.583333,
+          38.325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "PACKARD",
+        "COUNTY": "WHITLEY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.055833,
+          36.6675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "PARADISE",
+        "COUNTY": "MUHLENBERG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.983611,
+          37.268056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "SCUFFLETOWN",
+        "COUNTY": "HENDERSON"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.372222,
+          37.922778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "SUGARTIT",
+        "COUNTY": "BOONE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.662778,
+          38.972778
+        ]
+      }
+    }
+  ]
+}
