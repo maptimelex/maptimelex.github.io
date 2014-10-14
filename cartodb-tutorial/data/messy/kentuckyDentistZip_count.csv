@@ -1,0 +1,201 @@
+city,zipcode_x,zipcode_y,dentist_count
+Albany,42602,42602,2
+Alexandria,41001,41001,1
+Ashland,41101,41101,16
+Ashland,41102,41102,1
+Barbourville,40906,40906,3
+Bardstown,40004,40004,5
+Beaver Dam,42320,42320,2
+Bellevue,41073,41073,1
+Benton,42025,42025,5
+Berea,40403,40403,5
+Bowling Green,42101,42101,10
+Bowling Green,42103,42103,1
+Bowling Green,42104,42104,10
+Brandenburg,40108,40108,1
+Buckner,40010,40010,1
+Burkesville,42717,42717,1
+Burlington,41005,41005,5
+Cadiz,42211,42211,1
+Calvert City,42029,42029,1
+Campbellsville,42718,42718,3
+Carrollton,41008,41008,1
+Central City,42330,42330,2
+Cold Spring,41076,41076,1
+Columbia,42728,42728,3
+Corbin,40701,40701,7
+Covington,41011,41011,4
+Covington,41015,41015,2
+Covington,41017,41017,1
+Crescent Springs,41017,41017,3
+Crestview Hills,41017,41017,4
+Crestwood,40014,40014,5
+Crittenden,41030,41030,1
+Crittenden,41031,41031,1
+Crofton,42217,42217,1
+Cynthiana,41031,41031,2
+Danville,40422,40422,3
+Dawson Springs,42408,42408,1
+Dry Ridge,41035,41035,4
+Eddyville,42038,42038,1
+Edgewood,41017,41017,6
+Edmonton,42129,42129,2
+Elizabethtown,42701,42701,18
+Elkton,42220,42220,1
+Erlanger,41018,41018,3
+Fairdale,40118,40118,1
+Falmouth,41040,41040,1
+Flatwoods,41139,41139,2
+Flemingsburg,41041,41041,4
+Florence,41042,41042,17
+Fort Knox,40121,40121,1
+Fort Mitchell,41017,41017,3
+Fort Mitchell,41030,41030,1
+Fort Thomas,41075,41075,7
+Frankfort,40601,40601,12
+Franklin,42134,42134,1
+Ft Mitchell,41017,41017,2
+Ft Wright,41011,41011,2
+Fulton,42041,42041,1
+Georgetown,40324,40324,7
+Glasgow,42141,42141,7
+Glasgow,42142,42142,1
+Goshen,40026,40026,1
+Greensburg,42743,42743,2
+Greenup,41144,41144,1
+Greenville,42345,42345,3
+Grethel,41631,41631,3
+Hardinsburg,40143,40143,2
+Harlan,40831,40831,3
+Harrodsburg,40330,40330,4
+Hartford,42347,42347,2
+Hazard,41701,41701,3
+Hebron,41048,41048,3
+Henderson,42420,42420,12
+Highland Heights,41076,41076,4
+Hindman,41822,41822,1
+Hopkinsville,42240,42240,10
+Horse Cave,42749,42749,2
+Hyden,41749,41749,1
+Independence,41051,41051,1
+Irvine,40336,40336,2
+Isonville,41149,41149,1
+Jackson,41339,41339,1
+Jeffersontown,40299,40299,1
+Jeffersonville,47130,47130,1
+LaCenter,42056,42056,1
+LaGrange,40031,40031,3
+Lawrenceburg,40342,40342,1
+Lebanon Junction,40150,40150,1
+Lebanon,40033,40033,2
+Leitchfield,42754,42754,1
+Lexington,40502,40502,9
+Lexington,40503,40503,17
+Lexington,40504,40504,7
+Lexington,40505,40505,1
+Lexington,40507,40507,1
+Lexington,40508,40508,5
+Lexington,40509,40509,14
+Lexington,40511,40511,4
+Lexington,40513,40513,5
+Lexington,40514,40514,2
+Lexington,40517,40517,11
+Lexington,40536,40536,11
+Livermore,42352,42352,1
+London,40741,40741,8
+Louisa,41230,41230,1
+Louisville,40202,40202,23
+Louisville,40203,40203,1
+Louisville,40204,40204,5
+Louisville,40205,40205,8
+Louisville,40206,40206,4
+Louisville,40207,40207,34
+Louisville,40208,40208,1
+Louisville,40211,40211,2
+Louisville,40213,40213,2
+Louisville,40214,40214,11
+Louisville,40215,40215,6
+Louisville,40216,40216,13
+Louisville,40217,40217,5
+Louisville,40218,40218,9
+Louisville,40219,40219,8
+Louisville,40220,40220,10
+Louisville,40222,40222,12
+Louisville,40223,40223,9
+Louisville,40228,40228,1
+Louisville,40229,40229,6
+Louisville,40241,40241,4
+Louisville,40242,40242,5
+Louisville,40243,40243,7
+Louisville,40245,40245,4
+Louisville,40258,40258,4
+Louisville,40272,40272,2
+Louisville,40291,40291,3
+Louisville,40292,40292,4
+Louisville,40299,40299,10
+Madisonville,42431,42431,11
+Manchester,40962,40962,1
+Marion,42064,42064,1
+Martin,41649,41649,1
+Mayfield,42066,42066,4
+Maysville,41056,41056,3
+Middlesboro,40965,40965,2
+Monticello,42633,42633,4
+Morehead,40351,40351,5
+Morganfield,42437,42437,3
+Mount Sterling,40353,40353,3
+Mount Vernon,40456,40456,1
+Mount Washington,40047,40047,2
+Mt Sterling,40353,40353,2
+Munfordville,42765,42765,2
+Murray,42071,42071,9
+Nancy,42544,42544,1
+Neon,41840,41840,1
+Newport,41071,41071,3
+Nicholasville,40356,40356,3
+Owensboro,42301,42301,13
+Owensboro,42303,42303,18
+Owenton,40359,40359,1
+Owingsville,40360,40360,1
+Paducah,42001,42001,17
+Paducah,42003,42003,4
+Paducah,42069,42069,1
+Paintsville,41240,41240,2
+Paris,40361,40361,2
+Pewee Valley,40056,40056,1
+Pikeville,41501,41501,9
+Pineville,40977,40977,3
+Powderly,42367,42367,1
+Prestonsburg,41653,41653,3
+Princeton,42445,42445,3
+Prospect,40059,40059,6
+Providence,42450,42450,1
+Radcliff,40160,40160,5
+Richmond,40475,40475,9
+Russell Springs,42642,42642,2
+Russell,41169,41169,1
+Russellville,42276,42276,2
+Salyersville,41465,41465,3
+Scottsville,42164,42164,5
+Shelbyville,40065,40065,4
+Shepherdsville,40165,40165,5
+Somerset,42501,42501,15
+Somerset,42503,42503,3
+South Shore,41175,41175,1
+South Williamson,41503,41503,3
+Southgate,41071,41071,1
+Springfield,40069,40069,2
+Stanford,40484,40484,1
+Stanton,40380,40380,1
+Sturgis,42459,42459,1
+Taylorsville,40071,40071,1
+Tompkinsville,42167,42167,3
+Union,41091,41091,4
+Versailles,40383,40383,6
+Vine Grove,40175,40175,1
+Walton,41094,41094,2
+Whitesburg,41858,41858,1
+Williamsburg,40769,40769,1
+Wilmore,40390,40390,1
+Winchester,40391,40391,11
+Wolverine,41339,41339,1
