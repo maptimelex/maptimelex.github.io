@@ -37,7 +37,7 @@
 * kentucky.zip (Kentucky shape, polygon, shp)
 
 
- ##/us
+##/us
 ######Some US Reference data
 
 * tl_2013_us_state.zip (US States, polygon, shp)
