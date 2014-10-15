@@ -1,4 +1,4 @@
-#Data
+#/data
 
 * counties.zip (US Counties, polygon, shp)
 * ne_110m_populated_places.zip (Populated Places, points, shp)
@@ -50,6 +50,7 @@
  A wide variety of US, regional, and city level data can be found at [Data.gov](https://www.data.gov/)
 
 --
+
 #Other external data sources
 
 * [AggData](http://aggdata.com/free-data)
